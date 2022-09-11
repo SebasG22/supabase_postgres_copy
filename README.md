@@ -32,7 +32,7 @@ CREATE TABLE "students"(
     "name" VARCHAR(255) NOT NULL,
     "class" VARCHAR(255) NOT NULL,
     "dorm" VARCHAR(255) NOT NULL,
-    "room" INTEGER NOT NULL,
+    "room" VARCHAR(255) NOT NULL,
     "gpa" DOUBLE PRECISION NOT NULL
 );
 ```
